@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Klee+One&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.fir{
+    margin-left: 30px;
+ color: cyan;
+    
+}
+.sec{
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+}
+.sec:hover{
+   /* background: chartreuse; */
+   transform: translateY(-8px);
+
+}
+span{
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+.all{
+    background-image: url("img/road2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+}
+
+.de{
+float: right;
+}
+
+.de h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-top: 350px;
+    margin-right: 40px;
+
+}
+
+.de h1:hover{
+    border-bottom: 4px solid #fff;
+}
+
+/* --------------------------------------------second-page-------------------------- */
+
+.second-page{
+height: 40vh;
+/* background: #008482; */
+
+}
+.second-one{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* margin-top: 50px; */
+    box-shadow: 0 20px 128px -48px #008482;
+
+
+    width: 428px;
+    height: 468px;
+    background-color: #008482;
+    border-radius: 12px;
+
+    position: relative;
+    top: -232px;
+left: 178px;
+    }
+
+    .last{
+  /* background-color: brown; */
+  width: 308px;
+  height: 348px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* text-align: center; */
+  align-items: center;
+  
+    }
+
+    .last h3{
+        margin-top: 40px;
+        margin-left: 8.2px;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'Klee One', cursive;
+    }
+
+.second-two{
+/* background-color: chartreuse; */
+height: 234px;
+width: 500px;
+float: right;
+/* position: absolute; */
+position: relative;
+top: -490px;
+margin-right: 120px;
+}
+
+.second-two h2{
+    font-size: 24px;
+    line-height: 1.2;
+
+    font-family: 'Klee One', cursive;
+    transition: 0.3s ease-in-out;
+}
+
+.second-two:hover h2{
+    /* background: chartreuse; */
+    transform: translateY(-8px);
+    border-bottom: 4px solid  rgb(170, 180, 23);
+ 
+}
+.btn{
+    width: 442px;
+    height: 88px;
+    background-color: rgb(170, 180, 23);
+    font-size: 1.5rem;
+    font-family: 'Klee One', cursive;
+
+    box-shadow: 0 20px 128px -48px rgb(13, 14, 13);
+    border: none;
+    margin-top: 40px;
+    border-radius: 12px;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+    cursor: progress;
+}
+
+.btn:hover{
+    /* background: chartreuse; */
+    transform: translateY(-8px);
+} 
+
+/* ---------------------third-page-------------------------------- */
+
+.third-page{
+    height: 90vh;
+    /* background: #9ed1d0; */
+  
+}
+.third-all{
+
+   
+    display: grid;
+    grid-template-columns: 244px 250px 244px;
+    grid-template-rows: 362px;
+position: relative;
+left: 16%;
+top: 18%;
+grid-gap: 120px;
+  
+
+}
+.third-page h1{
+text-align: center;
+padding-top: 60px;
+}
+
+
+.third-one{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+
+.third-one img{
+margin-top: 30px;
+}
+
+.third-one h5{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: rgb(138, 128, 128);
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.third-one h2{
+line-height: 3;
+
+}
+.third-one h3{
+font-size: 1.1rem;
+text-align: center;
+font-family: 'Gemunu Libre', sans-serif;
+}
+
+/* ---?-- */
+
+.third-two{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    }
+    
+    .third-two img{
+    margin-top: 30px;
+    }
+    
+    .third-two h5{
+        margin-top: 20px;
+        font-size: 1.1rem;
+        color: rgb(138, 128, 128);
+        font-family: 'Gemunu Libre', sans-serif;
+    }
+    .third-two h2{
+    line-height: 3;
+    /* background: rgb(87, 85, 83); */
+    margin-top: 20px;
+    
+    }
+    .third-two h3{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+    }
+
+    /* ------------------------------------------------------------ */
+
+    .third-three{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        }
+        
+        .third-three img{
+        margin-top: 30px;
+        }
+        
+        .third-three h5{
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: rgb(138, 128, 128);
+            font-family: 'Gemunu Libre', sans-serif;
+        }
+        .third-three h2{
+        line-height: 3;
+        
+        }
+        .third-three h3{
+        font-size: 1.1rem;
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        }
+
+        /* -------------------fourth-page----------------------------/------------- */
+        .fourth-page{
+              height: 100vh;
+              /* background: cadetblue; */
+              display: flex;
+              justify-content: space-around;
+
+  
+        }
+
+        .fourth-one{
+            /* background: chartreuse; */
+            width: 360px;
+            margin-top: 80px;
+            height: 400px;
+
+        }
+
+        .fourth-one h1{
+            font-size: 36px;
+            font-family: 'Gemunu Libre', sans-serif;
+            line-height: 45px;
+
+        }
+        .fourth-one p{
+            width: 302px;
+            font-size: 24px;
+            font-family: 'Gemunu Libre', sans-serif;
+            font-weight: bold;
+            line-height:35px;
+            margin-top: 8px;
+          
+        }
+
+        .btnn{
+            width: 380px;
+            height: 88px;
+            background-color: rgb(238, 142, 17);
+            font-size: 1.5rem;
+            font-family: sans-serif;
+        
+            box-shadow: 0 20px 128px -48px rgb(13, 14, 13);
+            border: none;
+            margin-top: 40px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            cursor: progress;
+        }
+        
+        .btnn:hover{
+            /* background: chartreuse; */
+            transform: translateY(-8px);
+        } 
+
+        .fourth-two{
+       /* background: rgb(230, 82, 82); */
+   
+        }
+
+        .fourth-two{
+            margin-top: 40px;
+            height: 600px;
+            width: 600px;
+        }
+
+        .but{
+        margin-left: 50px;
+        }
+
+        .but a {
+         transition: 0.2s ease-in-out;
+         padding-left: 60px;
+        
+        }
+
+        .but a:hover{
+            /* background-color: rgb(156, 152, 144); */
+        }
+        .but a img{
+            transition: 0.3s ease-in-out;
+        }
+
+        .but a img:hover{
+            /* background-color: green; */
+          transform: scale3d(2,2,2);
+          background-color: rgb(211, 206, 197);
+          border-radius: 100%;
+        }
+
+
+        #produce{
+            
+        }
+      
+        .car{
+            margin-top: 40px;
+            background-image: url("img/newcar.png");
+           
+            width: 550px;
+            height: 500px;
+            background-position: center;
+            background-size: 90%;
+            background-repeat: no-repeat;
+        }
+        
+        .bus{
+            margin-top: 40px;
+            background-image: url("img/newbus.png");
+           
+            width: 550px;
+            height: 550px;
+            background-position: center;
+            background-size: 70%;
+            background-repeat: no-repeat;
+        }
+        
+        .suv{
+            background-image: url("img/suv.png");
+            margin-top: 40px;
+            width: 550px;
+            height: 500px;
+            background-position: center;
+            background-size: 100%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+        }
+        
+        .man{
+            background-image: url("img/man.png");
+            margin-top: 40px;
+            width: 550px;
+            height: 500px;
+            background-position: center;
+            background-size: 100%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+        }
+
+
+        /* ---------------------------fifth-page--------------------------------------------------- */
+        .fifth-page{
+            height:1080px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .front
+        {
+            margin-top: 40px;
+            font-size: 4rem;
+            font-family: 'Gemunu Libre', sans-serif;
+        }
+
+        .fifth-one{
+            margin-top: 50px;
+            
+            width: 80%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        box-shadow:-1px 2px 13px 0px rgb(13 14 13);
+      
+
+        /* display: block; */
+
+
+        transition: 0.5s ease-in-out;
+
+        }
+
+
+
+        .fifth-one a{
+            margin-left: 30px;
+           padding-right: 10px;
+           position: relative;
+           top: 73px;
+    left: -5px;
+           /* padding-top: 40px; */
+        }
+  
+
+        .main{
+            margin-left: 80px;
+            padding-top: 40px;
+        }
+
+
+        .box{
+            /* background-color: tan; */
+            visibility: hidden;
+        }
+
+        .box2{
+            visibility: visible;
+            font-size: 1.5rem;
+            font-family: 'Gemunu Libre', sans-serif;
+            /* border: 2px solid rgb(6, 247, 114); */
+            line-height: 2;
+            font-weight: bolder;
+
+
+
+        }
+
+        /* -----------------------------------------------------. */
+        .mainn{
+            margin-left: 80px;
+            padding-top: 40px;
+        }
+
+
+        .boxn{
+            /* background-color: tan; */
+            visibility: hidden;
+        }
+
+        .boxn2{
+            visibility: visible;
+            font-size: 1.5rem;
+            font-family: 'Gemunu Libre', sans-serif;
+            /* border: 2px solid rgb(6, 247, 114); */
+            line-height: 2;
+
+            font-weight: bolder;
+
+
+        }
+
+
+        /* ----------------------- */
+
+        .main3{
+            margin-left: 80px;
+            /* padding-top: 40px; */
+        }
+
+
+        .box3{
+            /* background-color: tan; */
+            visibility: hidden;
+        }
+
+        
+        #btn3{
+            margin-left: 30px;
+           padding-right: 10px;
+           position: relative;
+           top: 36px;
+           left: -5px;
+           /* padding-top: 40px; */
+        }
+
+        .box23{
+            visibility: visible;
+            font-size: 1.5rem;
+            font-family: 'Gemunu Libre', sans-serif;
+            /* border: 2px solid rgb(6, 247, 114); */
+
+            font-weight: bolder;
+            line-height: 2;
+
+
+
+        }
+
+        /* -------------------------------------------------- */
+        .main0{
+            margin-left: 80px;
+            padding-top: 40px;
+        }
+
+
+        .box0{
+            /* background-color: tan; */
+            visibility: hidden;
+        }
+
+        .box01{
+            visibility: visible;
+            font-size: 1.5rem;
+            font-family: 'Gemunu Libre', sans-serif;
+            /* border: 2px solid rgb(6, 247, 114); */
+
+            font-weight: bolder;
+            line-height: 2;
+
+
+
+        }
+.fifth-one a i{
+    color: #000;
+}
+
+.btn34{
+    width: 442px;
+    height: 88px;
+    background-color: rgb(6, 240, 123);
+    font-size: 1.5rem;
+    font-family: 'Klee One', cursive;
+
+    box-shadow: -2px 1px 19px 4px rgb(6 240 123);
+    border: none;
+    margin-top: 80px;
+    border-radius: 12px;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+    cursor: hover;
+    font-weight: bolder;
+}
+
+.btn34:hover{
+    /* background: chartreuse; */
+    transform: translateY(-8px);
+    box-shadow: -2px 1px 0px 0px rgb(6 240 123);
+
+} 
+
+/* -------------------foooter-------------- */
+.footer{
+    display: flex;
+    background-color: rgb(5, 5, 4);
+    height: 200px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+}
+
+.footer i{
+    color: cyan;
+margin-left: 40px;
+}
+
+.footer h1{
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.last1{
+    width: 442px;
+    height: 50px;
+    background-color: rgb(240, 197, 6);
+    font-size: 1.5rem;
+    /* font-family: 'Klee One', cursive; */
+    font-family: sans-serif;
+
+    box-shadow: -2px 1px 19px 4px rgb(240, 197, 6);
+    border: none;
+    /* margin-top: 80px; */
+    margin-left: 180px;
+    border-radius: 12px;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+    cursor: hover;
+    font-weight: bolder;
+    text-decoration: none;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last1:hover{
+    /* background: chartreuse; */
+    transform: translateY(-8px);
+    box-shadow: -2px 1px 0px 0px #ffff;
+
+} 
+
+.last{
+    color: #000;
+}
